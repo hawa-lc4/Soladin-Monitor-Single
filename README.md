@@ -1,4 +1,4 @@
-# Soladin Monitor Duo
+# Soladin Monitor Single
 Kommunikation mit Mastervolt Soladin 600 Wechselrichter und Anzeige von Betriebsdaten.
 
 Die Quelle der hier verwendeten Bibliotheken Soladin.h und Soladin.cpp ist auf github nicht mehr vorhanden
