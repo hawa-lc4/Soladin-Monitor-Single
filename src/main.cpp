@@ -64,10 +64,10 @@ char SysVer[] = "1.51s";                    // System-Version; immer anpassen!!!
 // A7 = ?                         //
 //
 // D0 und D1 bleiben frei für USB-Schnittstelle (Rx/Tx)
-// D2 = ?                         //
-// D3 = ? (PWM)                   //
-// D4 = ?                         // Soladin-1 Tx-data
-// D5 = ? (PWM)                   // Soladin-1 Rx-data
+// D2 = ?                         // Soladin-1 Tx-data
+// D3 = ? (PWM)                   // Soladin-1 Rx-data
+// D4 = ?                         //
+// D5 = ? (PWM)                   //
 // D6 = ? (PWM)                   //
 // D7 = ?                         //
 // D8 = ?                         // Display Chip select
@@ -100,7 +100,7 @@ Ucglib_ST7735_18x128x160_HWSPI ucg(/*cd=*/ 9, /*cs=*/ 8, /*reset=*/ -1);
 // Reset könnte man sich auch sparen und den Pin vom Display auf den Reset des Arduino legen.
 // /*reset=*/ -1    das geht genauso.
 
-SoftwareSerial solcom(5, 4);      // serial to conect to Soladin RX=5 TX=4
+SoftwareSerial solcom(3, 2);      // serial to conect to Soladin RX=5 TX=4
 Soladin sol;                      // copy of soladin class
 
 /*
