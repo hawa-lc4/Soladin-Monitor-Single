@@ -55,10 +55,10 @@ char SysVer[] = "1.51s";                    // System-Version; immer anpassen!!!
 
 // Belegung der analogen und digitalen I/O-PINs:
 //
-// A0 = ?                         // Input: Abfrage Taster History-Data
+// A0 = ?                         // 
 // A1 = ?                         //
-// const byte XXXX = 2;           // Meßeingang A2
-// const byte YYYY = 3;           // Meßeingang A3
+// const byte XXXX = 2;           // 
+// const byte YYYY = 3;           // 
 // A4 und A5 bleiben reserviert für mögliche I2C Erweiterungen
 // A6 = ?                         //
 // A7 = ?                         //
@@ -100,7 +100,7 @@ Ucglib_ST7735_18x128x160_HWSPI ucg(/*cd=*/ 9, /*cs=*/ 8, /*reset=*/ -1);
 // Reset könnte man sich auch sparen und den Pin vom Display auf den Reset des Arduino legen.
 // /*reset=*/ -1    das geht genauso.
 
-SoftwareSerial solcom(3, 2);      // serial to conect to Soladin RX=5 TX=4
+SoftwareSerial solcom(3, 2);      // serial to conect to Soladin RX=3 TX=2
 Soladin sol;                      // copy of soladin class
 
 /*
