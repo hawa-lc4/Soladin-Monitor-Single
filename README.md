@@ -1,5 +1,6 @@
 # Soladin Monitor Single
 Kommunikation mit Mastervolt Soladin 600 Wechselrichter und Anzeige von Betriebsdaten.
+
 Aufbau auf einem Arduino Nano mit 1.8" Farb-Display am SPI bus.
 
 Die Quelle der hier verwendeten Bibliotheken Soladin.h und Soladin.cpp ist auf github nicht mehr vorhanden
